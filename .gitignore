@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Ignoring compiled javascript and map file. We use TypeScript.
+**/scripts/*.js
+**/scripts/*.js.map
