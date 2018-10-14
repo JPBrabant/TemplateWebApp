@@ -35,6 +35,10 @@ namespace TemplateWebApp
                 app.UseDeveloperExceptionPage();
             }
 
+            // Parameter to use our type script client in wwwroot.
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
             app.UseMvc();
         }
     }
