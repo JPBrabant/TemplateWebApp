@@ -1,1 +1,0 @@
-﻿export const TEST_CONST = "Test Hello World";

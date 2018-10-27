@@ -1,6 +1,6 @@
-﻿import { TEST_CONST } from './constant.js';
+﻿import { API_URL } from './utility/constant.js';
 
-let valeurTexte = document.createElement('p');
-valeurTexte.textContent = TEST_CONST;
+let value = document.createElement('p');
+value.textContent = `API URL : ${API_URL}`;
 
-document.body.appendChild(valeurTexte);
+document.body.appendChild(value);

@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\scripts\ts\page\icomponent.ts" />
+    <Content Remove="wwwroot\scripts\ts\page\iwebpage.ts" />
+    <Content Remove="wwwroot\scripts\ts\utility\api.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
@@ -16,8 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\scripts\ts\constant.ts" />
+    <TypeScriptCompile Include="wwwroot\scripts\ts\page\iwebpage.ts" />
+    <TypeScriptCompile Include="wwwroot\scripts\ts\utility\api.ts" />
+    <TypeScriptCompile Include="wwwroot\scripts\ts\utility\constant.ts" />
     <TypeScriptCompile Include="wwwroot\scripts\ts\main.ts" />
+    <TypeScriptCompile Include="wwwroot\scripts\ts\page\icomponent.ts" />
   </ItemGroup>
 
 </Project>
