@@ -261,5 +261,4 @@ __pycache__/
 *.pyc
 
 # Ignoring compiled javascript and map file. We use TypeScript.
-**/scripts/*.js
-**/scripts/*.js.map
+**/scripts/js/

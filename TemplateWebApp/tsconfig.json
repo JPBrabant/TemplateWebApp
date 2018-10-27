@@ -1,0 +1,23 @@
+﻿{
+  "compileOnSave": true,
+
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "rootDir": "wwwroot/scripts/ts/",
+    "outDir": "wwwroot/scripts/js/",
+    "sourceMap": true,
+    "removeComments": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+  }
+}
