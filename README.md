@@ -1,14 +1,30 @@
 # TemplateWebApp
 ## Description
-Basic template of a web app using TypeScript, ASP.NET Web API and Entity Framework on .Net Core. 
+Basic template of a 3-tier web app with a client in TypeScript, a service using .Net Core Web API and a database with Entity Framework as an ORM.
 
 ## Goal
-Creating a teamplate to create a website without any SPA framework and no webpack.
+Creating a website template from scratch with the minimum amout of dependency. I should understand everything going on under the hood, no magic (create-react-app, heavy handed framework like Vue, 1000 lines of webpack.config.js, etc.)
+
+## Features
+### Client
+- No webpack
+- TSC only
+- Tests
+- TypeScript
+- Compile to ES2015
+- Native ES2015 modules
+- Support evergreen browser only (Chrome, Firefox, Edge and Safari)
+
+### Service
+TODO
+
+### Database
+TODO
 
 ## TODO
 - [x] Easy to use in Visual Studio 2017
 - [ ] Easy to use in Visual Studio Code
-- [x] ES6 module
+- [x] ES2015 module
 - [x] TypeScript compiler only
 - [ ] Entity framework
 - [ ] Add fallback when the browser does not support Module
