@@ -36,3 +36,6 @@ TODO
 - [ ] Create an object model in TS (WebPage, SpecificPage, WebComponent, Render(), ...)
 - [ ] Add a .tsconfig with everything strict
 - [ ] Split generated .map and .js files in differents folders
+
+## Ressources
+ - https://github.com/Microsoft/TypeScriptSamples
